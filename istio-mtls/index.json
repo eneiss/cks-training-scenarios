@@ -1,0 +1,14 @@
+{
+  "title": "Configure mTLS with Istio",
+  "description": "Configure and enforce mTLS on specific namespaces using Istio in sidecar mode",
+  "details": {
+    "intro": {
+      "text": "intro/intro.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    }
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-1node-4GB"
+  }
+}
