@@ -7,7 +7,19 @@
       "foreground": "intro/foreground.sh",
       "background": "intro/background.sh"
     }
+    "steps": [
+      {
+        "title": "Step1",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+    }
   },
+
   "backend": {
     "imageid": "kubernetes-kubeadm-1node-4GB"
   }

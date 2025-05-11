@@ -28,8 +28,8 @@ kubectl apply -f samples/curl/curl.yaml -n foo
 kubectl create ns bar
 kubectl apply -f samples/httpbin/httpbin.yaml -n bar
 kubectl apply -f samples/curl/curl.yaml -n bar
+kubectl create ns legacy
+kubectl apply -f samples/curl/curl.yaml -n legacy
 echo "Created demo resources."
-
-# TODO: step 1, inject istio sidecar in all deployments
 
 touch /tmp/finished
