@@ -12,6 +12,11 @@
         "title": "Step1",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Step2",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
       }
     ],
     "finish": {
